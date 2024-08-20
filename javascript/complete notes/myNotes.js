@@ -69,6 +69,41 @@ if(age == 21){
 
 let result = age>=18 ? "eligible": "not eligible";
 console.log(result);
+// -> Homework problem
+
+/*let input = prompt("check whether given number is divisible by 5 ot not : ");
+
+if(input % 5 ==0){
+    console.log(input + " "+ "is divisible by 5");
+}else{
+    console.log(input + " "+ "is not divisible by 5");
+}
+
+alert("Congractulations on completing your first question 😀😀 ");*/
+
+let marks=30;
+
+if(marks>=80 && marks <=90){
+    console.log("Grade A");
+}else if(marks >=70 && marks <=89){
+    console.log("Grade B");
+}else if(marks >=60 && marks <=69){
+    console.log("Grade C");
+}else{
+    console.log("Grade D");
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
