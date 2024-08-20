@@ -80,8 +80,8 @@ if(input % 5 ==0){
 }
 
 alert("Congractulations on completing your first question 😀😀 ");*/
-
-let marks=30;
+// ----> conditional statements.
+/*let marks=30;
 
 if(marks>=80 && marks <=90){
     console.log("Grade A");
@@ -91,20 +91,44 @@ if(marks>=80 && marks <=90){
     console.log("Grade C");
 }else{
     console.log("Grade D");
+}*/
+
+//  ---> for loop
+for(let count = 1; count<=5 ; count++){
+    console.log("Abhinav Kumar");
+}
+
+for(let count = 1; count<=5 ; count++){
+    console.log(count);
+}
+
+// sum of n natural numbers
+let sum = 0;
+for(let i=1;i<=10;i++){
+    sum += i;
+}
+console.log(sum);
+
+// -----> while loop
+/*
+while(condition){      // the condition in the while loop is stopping condition.
+    statements;
+}
+*/
+
+let myvar =1;
+while(myvar<=5){
+    console.log(myvar);   // if we do not mention any increment statement then while loops goi to infinite.
+    myvar++;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
+// ---> do while loop
+let mynum = 15;
+do{
+    console.log(mynum);
+    mynum++;
+}while(mynum <= 20);
 
 
 
