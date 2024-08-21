@@ -183,6 +183,83 @@ let userName = prompt(" Enter your full name : ");
 let len = userName.length;
 alert(`Your user name is @${userName}${len} `);
 */
+ 
+// ----> functions  
+// suppose if we want to perform any operation more than once or repeated we use functions.
+
+
+/*
+
+--> Below is the creation of function
+
+function sunctionName(parameters){
+  //code statements
+}
+
+---> function calling
+
+functionName(parameters)
+
+
+
+function myFunction(){
+    console.log("My name is Abhinav");
+    console.log("This is the implementation of function");
+};
+
+myFunction();
+*/
+
+//direct way of creating a function.
+function add(a, b){
+    s = a + b;
+    return s;
+};
+
+let val = add(2,3);
+console.log(val);
+
+
+// creating a function using arrow keyword.
+let sumNum = (x, y) => {
+    return x+y;
+};
+let val1 = sumNum(4,3);
+console.log(val1);
+
+
+// function to print vowels in a string.
+let count =0;
+function findVowels(str){
+    for(let i of str){
+        if(i === 'a' || i==='e'||i==='o'||i==='i'||i==='u'||i === 'A' || i==='E'||i==='I'||i==='O'||i==='U'){
+                 count += 1;
+            }
+    }
+    return count;
+}
+
+let name = findVowels("aeiouaeiou");
+console.log(`The no. of vowels in the given string is ${name}`);
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
