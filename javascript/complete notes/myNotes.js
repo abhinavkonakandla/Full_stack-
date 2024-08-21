@@ -150,9 +150,13 @@ if(userNumber == gameNumber){
 
 //     Strings 
 
-let st = "Abhinav";
+let st = "     Abhinav";
 console.log(st.length);
 console.log(st.toUpperCase());
+console.log(st.trim());
+console.log(st.replace("nav", "kumar"));
+console.log(st.slice(6,12));   // starting value noe considered.
+console.log(st.charAt(6));
 
 
 //we can access the individual characters.
@@ -173,7 +177,11 @@ if we want to write variables, we can write like this ${ variable that prints va
 */
 console.log(`This is to print the string ${st}`);  // this is the example of string lkiterals.
 
+// ----> small game
 
+let userName = prompt(" Enter your full name : ");
+let len = userName.length;
+alert(`Your user name is @${userName}${len} `);
 
 
 
