@@ -178,11 +178,11 @@ if we want to write variables, we can write like this ${ variable that prints va
 console.log(`This is to print the string ${st}`);  // this is the example of string lkiterals.
 
 // ----> small game
-
+/*
 let userName = prompt(" Enter your full name : ");
 let len = userName.length;
 alert(`Your user name is @${userName}${len} `);
-
+*/
 
 
 
