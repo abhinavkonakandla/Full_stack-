@@ -148,6 +148,31 @@ if(userNumber == gameNumber){
     console.log("you have lost the game. better luch next time");
 }*/
 
+//     Strings 
+
+let st = "Abhinav";
+console.log(st.length);
+console.log(st.toUpperCase());
+
+
+//we can access the individual characters.
+
+console.log(st[0]);
+console.log(st[2]);
+console.log(st[5]);
+console.log(st[6]);
+
+
+//   string literal
+
+/*
+
+string literals are used to create special sentences.
+and we can write all the sentence within the back ticks ` string literals `.
+if we want to write variables, we can write like this ${ variable that prints values }.
+*/
+console.log(`This is to print the string ${st}`);  // this is the example of string lkiterals.
+
 
 
 
