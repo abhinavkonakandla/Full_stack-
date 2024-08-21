@@ -131,6 +131,24 @@ do{
 }while(mynum <= 20);
 
 
+//   ----> for-of loop      // this loop helps to iterate over arrays and strings. it makes simpler
+
+let str = "Abhinav";
+for(let i of str){
+    console.log("i=", i);
+}
+
+// --->this is a small game guessing the game number.
+/*
+let gameNumber = 38;
+let userNumber = prompt("Enter a number that matches with game number : ");
+if(userNumber == gameNumber){
+    console.log("you have won the game");
+}else{
+    console.log("you have lost the game. better luch next time");
+}*/
+
+
 
 
 
