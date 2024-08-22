@@ -1,0 +1,103 @@
+.first-picdiv{
+    background-color: aquamarine;
+    width: 650px;
+    margin: 20%;
+    margin-bottom: 0%;
+    padding: 90px 70px;
+    border-radius: 15px;
+    
+}
+.first-picdiv h1 {
+    width: 50%;
+    font-size:  70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.first-picdiv p{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.first-btn{
+    border-radius: 40px;
+    color: black;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    width: 45%;
+    color: black solid;
+    font-weight: bold;
+}
+
+.sec-card{
+    width: 650px;
+    background-color: whitesmoke;
+    margin: 20%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    padding: 80px 70px;
+    border-radius: 20px;
+    border-color: gray;
+}
+.sec-card h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.sec-card p{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+.img1{
+    border-radius: 50%;
+    width: 20%;
+    height: 90px;
+    margin-left: 90px;
+}
+.img2{
+    border-radius: 50%;
+    width: 20%;
+    height: 90px;
+    margin-left: 120px;
+}
+.btm-heading{
+    padding-top: 30px;
+    font-size: 30px;
+    color: blue;
+}
+
+.third-card{
+    width: 750px;
+    background-color: whitesmoke;
+    margin: 1% 22%;
+    border-radius: 20px;
+    border-color: gray;
+}
+
+.third-card h1{
+    font-size:  50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.beach-img{
+    width: 100%;
+}
+.third-card p{
+    font-size: 35px;
+    font-weight:400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+.third-btn{
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 15px;
+}
+
+
+
+
+
