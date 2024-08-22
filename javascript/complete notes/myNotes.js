@@ -243,7 +243,49 @@ let name = findVowels("aeiouaeiou");
 console.log(`The no. of vowels in the given string is ${name}`);
 
 
+// ----> for-each loop
+
+let arr = [1,2,3,4,5];
+arr.forEach((i)=>{
+    console.log(i);
+})
  
+
+// higher order functions 
+
+/*
+
+if a function takes another function as a parameter or 
+if it returna a function the that function is called 
+higher order function.
+
+*/
+
+let arr1 = [2,4,6,8,3,6,1,0];
+arr1.forEach((val) => {
+    console.log(val * val);
+})
+
+// ---> Map method
+// creating a map
+
+arr1.map((val)=>{
+    console.log(val);
+})
+
+// --> Filter method 
+//  it is used to 
+let ar= [1,2,3,4,7]
+let myAr = ar.filter((val)=>{
+    return val >3;
+})
+console.log(myAr);
+
+
+
+
+
+
 
 
 
