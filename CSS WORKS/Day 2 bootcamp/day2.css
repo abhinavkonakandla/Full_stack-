@@ -1,0 +1,79 @@
+.card{
+    width: 650px;
+    padding: 8px;
+    border-radius: 14px;
+    border: 1px solid lightgray;
+    margin: 50px;
+    position: relative;
+
+}
+.tag{
+    background-color: white;
+    width: 20%;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    padding: 5px;
+    position: absolute;
+    top: 20px;
+    font-weight: 800;
+}
+.card h4{
+    background-color: blue;
+    width: 25%;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 400px;
+    text-align: center;
+}
+.time{
+    background-color: white;
+    width: 20%;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    padding: 2px;
+    position: absolute;
+    top: 400px;
+    left: 470px;
+    font-weight: 800;
+}
+.card-img{
+    width: 100%;
+    border-radius: 14px;
+}
+.note{
+    width: 20%;
+}
+.veg-thali{
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+}
+.card p{
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+
+}
+.sub{
+    position: relative;
+}
+.note{
+    position: absolute;
+    border: 2px solid brown;
+    width: 15%;
+    left: 10px;
+
+}
+.sub-heading{
+    position:relative;
+    left: 140px;
+    font-size: 4px;
+    width: 75%;
+    padding: 10px;
+}
+
+
+
