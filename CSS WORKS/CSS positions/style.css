@@ -1,0 +1,210 @@
+.navbar{
+    background-color: black;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    gap: 100px;
+
+}
+
+.navbar ol{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.navbar ol li{
+    color: white;
+    padding: 15px 20px;
+
+
+}
+.navbar ol li:hover{
+    background-color: aqua;
+    color: black;
+}
+.search-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.search-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    position: absolute;
+    left: 20px;
+    top: 35px ;
+    object-fit: cover;
+}
+.search-bar{
+    border-radius: 30px;
+    width: 100%;
+    height: 30px;
+    border: 2px solid black;
+    
+    
+}
+
+.contact a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.contact a:hover{
+    background-color: aqua;
+    color: black;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.card{
+    width: 250px;
+    height: 400px;
+    border-radius: 14px;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+.card:hover{
+    box-shadow: 0px 4px 8px aqua ;
+}
+
+
+/*
+.card-img{
+    width: 100%;
+    border-radius: 14px;
+
+}
+.tag{
+    background-color: blue;
+    width: fit-content;
+    color: white;
+    font-weight: 400;
+    border-radius: 10px;
+    padding: 2px;
+    position: absolute;
+    top: 0;
+    left: 3;
+}
+.time{
+    background-color: blue;
+    width: fit-content;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    border-radius: 10px;
+    padding: 2px;
+    left: 190px;
+    top: 130px;
+    
+}
+
+.card h4{
+    background-color: blue;
+    width: fit-content;
+    color: white;
+    font-weight: 400;
+    border-radius: 10px;
+    padding: 2px;
+    position: absolute;
+    top: 130px;
+}
+.resName{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0;
+    color: black;
+}
+.card p{
+    padding: 0;
+}
+.sub{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0px;
+    gap: 5px;
+    
+}
+.note{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 90px;
+    padding-left: 3px;
+}
+*/
+
+
+.tesla-img{
+    width: 100%;
+    height: 40%;
+    border-radius: 12px;
+}
+
+.card h5{
+    padding: 10px;
+}
+
+.content{
+    padding-left: 10px;
+}
+.content h5{
+    background-color: lightgray;
+    border-radius: 25px;
+    width: fit-content;
+}
+.question{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.answer{
+    font-size: smaller;
+}
+
+.profile{
+    display: flex;
+    align-items:start;
+    padding-left: 7px;
+    gap: 6px;
+    
+}
+.mb-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    
+}
+.text{
+    margin: 0px;
+}
+.status{
+    margin: 0px;
+    font-size: small;
+}
+
+
