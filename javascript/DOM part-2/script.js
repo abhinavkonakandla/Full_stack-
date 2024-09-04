@@ -26,17 +26,30 @@ let newT = document.querySelector("h1");
 let newHead = document.createElement("h5");
 newHead.innerText = "This is DOM concept";
 newHead.style.color = "green";
-/*newT.append(newHead);*/
-/*newT.prepend(newHead);*/
+//newT.append(newHead);
+newT.prepend(newHead);
 /*newT.after(newHead);*/
-newT.before(newHead);
-
-
-
-
-
+//newT.before(newHead);
 
 // 1. access the tag which we want and keep it in a variable.
 // 2. create the elements with content.(it can be heading or image or paragraph).
 // 3. adding it to the dom tree using (append , prepend, after,before).
+
+/*
+
+let newP = document.querySelector("p");
+newP.classList.add("foo");
+*/
+
+
+
+
+
+
+
+
+
+
+
+
 
