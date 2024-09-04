@@ -1,7 +1,23 @@
 let btn1 = document.querySelector("#btn1");
-let btn = document.querySelector("button");
-btn1.onclick =  ()=> {
+let back = "light";
+
+/*btn1.onclick =  ()=> {
     console.log('button was clicked');
-    btn.style.backgroundColor = "black";
-    btn.style.color = "white";
-};
+    body.style.backgroundColor = "black";
+};*/
+
+btn1.addEventListener("mouseup",()=>{
+    if(back === "light"){
+        back ="dark";
+        btn1.classList.add("dark");
+        btn1.classList.remove("light");
+    }else{
+        back="light";
+        btn1.classList.add("light");
+        btn1.classList.remove("dark");
+    }
+    console.log(back);
+});
+
+
+
