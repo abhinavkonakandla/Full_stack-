@@ -1,0 +1,12 @@
+This notes helps understand the new properties used in the project or feature changes in it.
+
+
+
+
+
+
+
+
+
+
+
