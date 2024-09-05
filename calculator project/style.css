@@ -21,7 +21,7 @@ body{
     box-sizing: border-box;
     height: 500px;
     width: 300px;
-    background-color: black;
+    background-color: grey;
     margin-left: 230px;
     box-shadow: 4px 4px 30px tomato;
     border-radius: 15px;
@@ -29,12 +29,12 @@ body{
     overflow: hidden;
 }
 .input-area{
-    width: 100%;
+    width: 98%;
     height: 200px;
     text-align: right;
     font-size: 30px;
-    border-radius: 5px;
-    margin: 0;
+    border-radius: 15px;
+    background-color: aqua;
 }
 .content{
     display: flex;
@@ -61,13 +61,13 @@ button{
     background-color: white;
     
 }
-.btn-green{
+.btn-equal{
     width: 60px;
     height: 60px;
     background-color: green;
     
 }
-.btn-red{
+.btn-clear{
     width: 60px;
     height: 60px;
     background-color: red;
