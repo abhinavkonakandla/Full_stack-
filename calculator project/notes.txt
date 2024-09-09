@@ -1,0 +1,15 @@
+This notes helps understand the new properties used in the project or feature changes in it.
+
+
+1. data-num
+  ----> This is a property of a button which stores value
+        of the button.
+
+
+
+
+
+
+
+
+
