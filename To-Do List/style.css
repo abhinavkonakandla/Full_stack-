@@ -36,7 +36,23 @@ body{
 
 .tasks{
     background-color: azure;
-    width: 30vh;
+    width: fit-content;
     height: 40vh;
     border-radius: 1rem;
+    padding: 10px;
+    overflow: scroll;
+}
+
+.task-item{
+    background-color: aqua;
+    width: 26vh;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    margin: 10px;
+}
+.delete-btn{
+    height: 20px;
+    width: 20px;
 }
