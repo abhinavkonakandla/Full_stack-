@@ -31,12 +31,12 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: none;
     border-radius: 0.5rem;
+    cursor: pointer;
 }
 
-.textArea{
+.tasks{
     background-color: azure;
     width: 30vh;
     height: 40vh;
     border-radius: 1rem;
-    margin: 50px;
 }
