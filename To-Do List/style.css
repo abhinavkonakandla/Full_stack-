@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(247, 191, 244);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.elements{
+    background-color: azure;
+    width: 30vh;
+    padding: 2vh;
+    border-radius: 1rem;
+    margin: 50px;
+    
+}
+.taskBox-text{
+    width: 23vh;
+    height: 2rem;
+    border: none;
+    background-color: azure;
+
+}
+.addBtn{
+    height: 2rem;
+    width: 6vh;
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.textArea{
+    background-color: azure;
+    width: 30vh;
+    height: 40vh;
+    border-radius: 1rem;
+    margin: 50px;
+}
