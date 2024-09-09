@@ -12,6 +12,10 @@ nav{
     background:  rgb(26, 191, 242);
     height: 10vh;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
@@ -19,13 +23,12 @@ nav{
     font-size: 2rem;
     line-height: 80px;
 }
-.x{
-    font-size: 3rem;
-}
 
 ul{
-
+    display: flex;
+    flex-direction: row;
 }
 ul li{
+    padding: 10px;
     color: azure;
 }
