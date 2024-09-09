@@ -11,7 +11,7 @@ add.addEventListener('click', ()=>{
     if (taskValue === "") {
         alert("Please enter a task");
     } else {
-        const newTask = document.createElement('div');
+       /* const newTask = document.createElement('div');
         newTask.textContent = taskValue;
         newTask.classList.add('task-item'); // Adding class to the task
         
@@ -28,23 +28,28 @@ add.addEventListener('click', ()=>{
         tasks.appendChild(newTask);
         
         // Clear the input field after adding the task
-        text.value = "";
-       /* // Create a new element for the task
-        const div = document.createElement("div");
-        div.classList.add("task");
+        text.value = "";*/
+        // Create a new element for the task
+        const sub = document.createElement("div");
+        sub.classList.add('task');
 
         const para = document.createElement('p');
         para.textContent = taskValue;
-        tasks.append(para);
+        para.classList.add('para-text');
+        sub.appendChild(para);
 
         const img = document.createElement('img');
         img.src = 'https://img.icons8.com/?size=100&id=102350&format=png&color=000000';
         img.alt = "Delete";
         img.classList.add('bin-img');
 
-        div.appendChild(img);
-        tasks.append(div);
+        sub.appendChild(img);
+        tasks.append(sub);
 
-        taskValue = " ";*/
+        text.value = " ";
+
+        img.addEventListener('click', ()=>{
+            tasks.removeChild(sub);
+        })
     }
 })
