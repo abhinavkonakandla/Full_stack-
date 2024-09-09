@@ -1,0 +1,46 @@
+body{
+    background-color: burlywood;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    width: 35vh;
+    background-color: azure;
+    height: 40vh;
+    border-radius: 2rem;
+    margin: 250px 350px;
+    
+}
+.search{
+    width: 29vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+    background:linear-gradient(135deg, #00feba, #5b548a)
+      
+}
+.city{
+    width: 23vh;
+    height: 3vh;
+    border-radius: 10px;
+    border: 1px solid aqua;
+
+}
+.search button{
+    border-radius: 50px;
+    border: 1px solid aqua;
+}
+.search button img{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+
