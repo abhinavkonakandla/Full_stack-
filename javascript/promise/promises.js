@@ -17,7 +17,7 @@ walkDog(()=>{
 // The above code is executed without calling a callback or invoking
 //due to this reason only first function will execute.
 
-function walkDog(callback){
+/*function walkDog(callback){
     setTimeout(()=>{
         console.log("Dog walking is completed.");
         callback();
@@ -33,4 +33,7 @@ function cleanKitchen(callback){
 
 walkDog(()=>{
     cleanKitchen(()=> console.log("everything is perfect!"));
-})
+})*/
+
+//This code used invoking the callback function
+
