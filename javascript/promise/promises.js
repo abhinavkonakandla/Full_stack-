@@ -41,7 +41,7 @@ function walkDog(){
     return new Promise((resolve, reject)=>{
         setTimeout(()=>{
             resolve("Dog walking is completed.");
-        },4000);
+        },1500);
     });
 }
 
@@ -49,14 +49,14 @@ function cleanKitchen(){
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
             resolve("Kitchen cleaning completed");
-        },4000);
+        },2500);
     });
 }
 function playWithDog(){
     return new Promise((resolve, reject)=>{
         setTimeout(()=>{
             resolve("playing with dog completed");
-        },4000);
+        },500);
     })
 }
 
@@ -69,7 +69,8 @@ walkDog().then(value=>{
     return playWithDog();
 })
 .then(value => {
-    console.log("all works are done.");
+    console.log(value);
+    return console.log("all works are done");
 })
 .catch(error=>{
     console.log(error);
