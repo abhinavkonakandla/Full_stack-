@@ -37,3 +37,40 @@ walkDog(()=>{
 
 //This code used invoking the callback function
 
+function walkDog(){
+    return new Promise((resolve, reject)=>{
+        setTimeout(()=>{
+            resolve("Dog walking is completed.");
+        },4000);
+    });
+}
+
+function cleanKitchen(){
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            resolve("Kitchen cleaning completed");
+        },4000);
+    });
+}
+function playWithDog(){
+    return new Promise((resolve, reject)=>{
+        setTimeout(()=>{
+            resolve("playing with dog completed");
+        },4000);
+    })
+}
+
+walkDog().then(value=>{
+    console.log(value);
+    return cleanKitchen();
+})
+.then(value=>{
+    console.log(value);
+    return playWithDog();
+})
+.then(value => {
+    console.log("all works are done.");
+})
+.catch(error=>{
+    console.log(error);
+})
