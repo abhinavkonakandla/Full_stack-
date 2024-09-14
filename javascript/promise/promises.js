@@ -37,7 +37,7 @@ walkDog(()=>{
 
 //This code used invoking the callback function
 
-function walkDog(){
+/*function walkDog(){
     return new Promise((resolve, reject)=>{
         setTimeout(()=>{
             resolve("Dog walking is completed.");
@@ -74,4 +74,7 @@ walkDog().then(value=>{
 })
 .catch(error=>{
     console.log(error);
-})
+})*/
+
+// This above approach uses promises by .then() block and 
+//.catch() method 
