@@ -95,20 +95,30 @@ async function walkDog(){
 async function cleanKitchen(){
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
-            resolve("Kitchen cleaning completed");
+            console.log("kitchen cleaning completed");
+            resolve("Success");
         },2500);
     });
 }
 async function playWithDog(){
     return new Promise((resolve, reject)=>{
         setTimeout(()=>{
-            resolve("playing with dog completed");
+            console.log("playing with dog completed");
+            resolve("Success");
         },500);
     })
 }
 
-async function getAll(){
+/*async function getAll(){
     await walkDog();
-    //await cleanKitchen();
-    //await playWithDog();
-}
+    await cleanKitchen();
+    await playWithDog();
+}*/  /* This part of code needs an extra call to call this 
+function.*/
+
+(async function getAll(){
+    await walkDog();
+    await cleanKitchen();
+    await playWithDog();
+})(); //This is IIFE method. No need an extra call it automatically 
+//executes all the instructions in it.
