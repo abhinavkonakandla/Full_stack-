@@ -6,3 +6,4 @@ const getCats = async ()=>{
     let response = await fetch(URL);
     console.log(response.status);
 }
+
