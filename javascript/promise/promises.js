@@ -78,3 +78,47 @@ walkDog().then(value=>{
 
 // This above approach uses promises by .then() block and 
 //.catch() method 
+
+// The following code is Async-Await code.
+// Easy to understand.
+// Easy to find errors.
+
+async function walkDog(){
+    return new Promise((resolve, reject)=>{
+        setTimeout(()=>{
+            console.log("Dog walking is completed.")
+            resolve("Success");
+        },1500);
+    });
+}
+
+async function cleanKitchen(){
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            console.log("kitchen cleaning completed");
+            resolve("Success");
+        },2500);
+    });
+}
+async function playWithDog(){
+    return new Promise((resolve, reject)=>{
+        setTimeout(()=>{
+            console.log("playing with dog completed");
+            resolve("Success");
+        },500);
+    })
+}
+
+/*async function getAll(){
+    await walkDog();
+    await cleanKitchen();
+    await playWithDog();
+}*/  /* This part of code needs an extra call to call this 
+function.*/
+
+(async function getAll(){
+    await walkDog();
+    await cleanKitchen();
+    await playWithDog();
+})(); //This is IIFE method. No need an extra call it automatically 
+//executes all the instructions in it.
