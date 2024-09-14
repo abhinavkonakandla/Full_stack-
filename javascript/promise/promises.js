@@ -78,3 +78,8 @@ walkDog().then(value=>{
 
 // This above approach uses promises by .then() block and 
 //.catch() method 
+
+// The following code is Async-Await code.
+// Easy to understand.
+// Easy to find errors.
+
