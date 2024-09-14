@@ -83,7 +83,7 @@ walkDog().then(value=>{
 // Easy to understand.
 // Easy to find errors.
 
-function walkDog(){
+async function walkDog(){
     return new Promise((resolve, reject)=>{
         setTimeout(()=>{
             resolve("Dog walking is completed.");
@@ -91,17 +91,23 @@ function walkDog(){
     });
 }
 
-function cleanKitchen(){
+async function cleanKitchen(){
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
             resolve("Kitchen cleaning completed");
         },2500);
     });
 }
-function playWithDog(){
+async function playWithDog(){
     return new Promise((resolve, reject)=>{
         setTimeout(()=>{
             resolve("playing with dog completed");
         },500);
     })
 }
+
+(async function getAll(){
+    await walkDog();
+    await cleanKitchen();
+    await playWithDog();
+})();
