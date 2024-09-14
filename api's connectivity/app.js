@@ -5,5 +5,7 @@
 const getCats = async ()=>{
     let response = await fetch(URL);
     console.log(response.status);
+    let data = response.json();
+    console.log(data)
 }
 
