@@ -83,3 +83,25 @@ walkDog().then(value=>{
 // Easy to understand.
 // Easy to find errors.
 
+function walkDog(){
+    return new Promise((resolve, reject)=>{
+        setTimeout(()=>{
+            resolve("Dog walking is completed.");
+        },1500);
+    });
+}
+
+function cleanKitchen(){
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            resolve("Kitchen cleaning completed");
+        },2500);
+    });
+}
+function playWithDog(){
+    return new Promise((resolve, reject)=>{
+        setTimeout(()=>{
+            resolve("playing with dog completed");
+        },500);
+    })
+}
