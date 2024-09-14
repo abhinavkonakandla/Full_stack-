@@ -86,7 +86,8 @@ walkDog().then(value=>{
 async function walkDog(){
     return new Promise((resolve, reject)=>{
         setTimeout(()=>{
-            resolve("Dog walking is completed.");
+            console.log("Dog walking is completed.")
+            resolve("Success");
         },1500);
     });
 }
@@ -106,8 +107,8 @@ async function playWithDog(){
     })
 }
 
-(async function getAll(){
+async function getAll(){
     await walkDog();
-    await cleanKitchen();
-    await playWithDog();
-})();
+    //await cleanKitchen();
+    //await playWithDog();
+}
