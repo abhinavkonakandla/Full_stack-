@@ -5,4 +5,12 @@ const dropDowns = document.querySelectorAll(".dropdown select");
     console.log(code);
 }*/
 
+for(let select of dropDowns){
+    for(code in countryList){
+        let newOption  = document.createElement("option");
+        newOption.innerText = code;
+        newOption.value = code;
+        select.append(newOption);
+    }
+}
 
