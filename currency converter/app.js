@@ -1,6 +1,8 @@
-const base_url = "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies.json";
+const base_url = "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies";
 const dropDowns = document.querySelectorAll(".dropdown select");
 const btn = document.querySelector("form button");
+const fromcurr = document.querySelector(".from select");
+const tocurr = document.querySelector(".to select");
 /*for(code in countryList){
     console.log(code);
 }*/
@@ -30,14 +32,17 @@ const updateFlag = (element)=>{
     img.src  = newSrc;
 }
 
-btn.addEventListener('click',(evt)=>{
+btn.addEventListener('click',async (evt)=>{
     evt.preventDefault();
     let amount = document.querySelector(".amount input");
     let amVal = amount.value;
     if(amVal==""){
         alert("amount cannot be empty");
     }
-    console.log(amVal);
+     //console.log(fromcurr.value,tocurr.value);
+    const URL = `${base_url}/${fromcurr.value.toLowerCase()}/${tocurr.value.toLowerCase()}.json`;
+    let response = await fetch(URL);
+    console.log(response);
 })
 
 
