@@ -31,13 +31,16 @@ body{
     height: 4vh;
     border-radius: 40px;
     border: none;
-    
+    padding: 5px;
 
 }
 .search button{
     height: 4vh;
     border-radius: 40px;
     border: none;
+}
+.search button:hover{
+    background-color: #5b548a;
 }
 .search button img{
     width: 3vh;
