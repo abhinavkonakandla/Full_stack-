@@ -1,7 +1,6 @@
 {
-  "name": "practice",
+  "name": "node-practice",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,6 +9,8 @@
   "author": "Abhinav",
   "license": "ISC",
   "dependencies": {
+    "sillyname": "^0.1.0",
     "superheroes": "^4.0.0"
-  }
+  },
+  "description": ""
 }
