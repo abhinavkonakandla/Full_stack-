@@ -1,0 +1,11 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "a js file used to practice the node modules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "in"
+  },
+  "author": "Abhinav",
+  "license": "ISC"
+}
