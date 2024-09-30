@@ -1,11 +1,15 @@
 {
   "name": "practice",
   "version": "1.0.0",
-  "description": "a js file used to practice the node modules.",
+  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "in"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Abhinav",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "superheroes": "^4.0.0"
+  }
 }
