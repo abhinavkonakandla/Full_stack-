@@ -1,8 +1,10 @@
 //var react = require("react");
 //var reactDOM = require("react-dom");
 
+
+import reactDom from "react-dom/client";
 import react from "react";
-import reactDom from "react-dom";
+
 /*
 reactDom.render(
   <div>
@@ -83,19 +85,21 @@ reactDom.render(
 );
 */
 
-/*
+
 const Morning = {
   color: "red",
 };
 const Afternoon = {
-  color: "red",
+  color: "green",
 };
 const evening = {
-  color: "red",
+  color: "blue",
 };
-const time = new Date();
-const msg = time.getHours();
-function getTime() {
+
+function GetTime() {
+
+  const time = new Date();
+  const msg = time.getHours();
   if (msg >= "1" && msg <= "12") {
     return (
       <h1 className="Morning" style={Morning}>
@@ -108,6 +112,9 @@ function getTime() {
     return <h1 style={evening}>Good evening</h1>;
   }
 }
-reactDom.render(getTime(), document.querySelector("#root"));
-*/
-// This above code prints msg according to the time.
+const root = reactDom.createRoot(document.getElementById("#root"));
+reactDom.render(
+<GetTime />
+);
+
+// This above code prints msg according to the time. 
