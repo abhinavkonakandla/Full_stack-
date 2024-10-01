@@ -12,8 +12,8 @@ console.log(`my name is ${rName}`);*/
 --> fs.readFileSync()
 --> fs.writeFile()
 --> fs.writeFileSync()
-fs.appendFile()
-fs.appendFileSync()
+--> fs.appendFile()
+--> fs.appendFileSync()
 fs.unlink()
 fs.unlinkSync()
 fs.readdir()
@@ -95,7 +95,16 @@ appendFile('input.txt','// this data is from appendfile.','utf-8',(err)=>{
   console.log("content appended successfully!");
 });
 */
+/*
 
+This content describes about the appendFileSync 
+
+import {appendFileSync} from 'node:fs';
+appendFileSync('input.txt','// this is from appendfilesync','utf8',(err)=>{
+  if(err) throw err;
+  console.log("appended successfullyyyy!");
+})
+*/
 
 
 
