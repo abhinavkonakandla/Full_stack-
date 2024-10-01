@@ -106,6 +106,24 @@ appendFileSync('input.txt','// this is from appendfilesync','utf8',(err)=>{
 })
 */
 
+/*
+
+This above code represents the unlink the file or folder from the existing 
+file (it deletes the file or folder).
+
+import {unlink,writeFile} from 'node:fs';
+
+writeFile('input.txt','//this is abhinav','utf-8',(err)=>{
+  if(err) throw err;
+  console.log("content overrided successfully!..");
+})
+
+
+unlink('input.txt',(err)=>{
+  if(err) throw err;
+  console.log("unlinked the text file successfully!..");
+})
+*/
 
 
 
