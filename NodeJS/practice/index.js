@@ -3,9 +3,12 @@ var name = getName();
 console.log(name);*/
 
 /*
-import superheroes from "superheroes" ;
-const rName = superheroes[Math.floor(Math.random() * superheroes.length)];
+var hero = require("superheroes");
+const rName = hero.randomSuperhero();
 console.log(`my name is ${rName}`);*/
+
+
+
 
 
 
