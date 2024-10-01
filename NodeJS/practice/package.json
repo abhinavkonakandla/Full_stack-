@@ -1,5 +1,5 @@
 {
-  "name": "node-practice",
+  "name": "nodemon.json",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -13,5 +13,6 @@
     "sillyname": "^0.1.0",
     "superheroes": "^4.0.0"
   },
+  "devDependencies": {},
   "description": ""
 }

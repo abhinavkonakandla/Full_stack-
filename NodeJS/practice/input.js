@@ -1,2 +1,1 @@
-console.log("Hello World!");
-// my name is abhinav.
+//i am trying to write writefile method

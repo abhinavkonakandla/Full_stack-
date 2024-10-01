@@ -31,6 +31,15 @@ readFile('input.js','UTF-8', (err, data) => {
     console.log(data);
 });
 */
+/*
+
+The above code represents writeFile method to write something to the destination file.
+
+import fs from 'node:fs';
+fs.writeFile('input.txt','//my name is abhinav','utf-8',(err)=>{
+  if(err) throw err;
+  console.log("file saved sucessfully");
+})*/
 
 
 
