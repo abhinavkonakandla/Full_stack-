@@ -18,6 +18,19 @@ There are top 10 modules to learn node as beginner.
 
 */
 
+//         FS    
+
+/*
+
+This code explains how to use readFile method and encode it.
+
+import { readFile } from 'node:fs';
+
+readFile('input.js','UTF-8', (err, data) => {
+  if (err) throw err;
+    console.log(data);
+});
+*/
 
 
 
