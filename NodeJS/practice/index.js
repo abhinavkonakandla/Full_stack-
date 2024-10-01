@@ -78,6 +78,24 @@ import fs from 'node:fs';
 console.log(fs.readFileSync('input.txt','utf-8'));
 */
 
+/*
+This above code represents the writefilesync method
+return type in undefined.
+
+import {writeFileSync} from 'node:fs';
+writeFileSync('input.txt','// this code is from the writefilesync block','utf-8');
+*/
+/*
+
+This content describes appending the content to the destination file
+
+import {appendFile} from 'node:fs';
+appendFile('input.txt','// this data is from appendfile.','utf-8',(err)=>{
+  if(err) throw err;
+  console.log("content appended successfully!");
+});
+*/
+
 
 
 
