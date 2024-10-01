@@ -12,8 +12,8 @@ console.log(`my name is ${rName}`);*/
 --> fs.readFileSync()
 --> fs.writeFile()
 --> fs.writeFileSync()
-fs.appendFile()
-fs.appendFileSync()
+--> fs.appendFile()
+--> fs.appendFileSync()
 fs.unlink()
 fs.unlinkSync()
 fs.readdir()
@@ -95,11 +95,49 @@ appendFile('input.txt','// this data is from appendfile.','utf-8',(err)=>{
   console.log("content appended successfully!");
 });
 */
+/*
+
+This content describes about the appendFileSync 
+
+import {appendFileSync} from 'node:fs';
+appendFileSync('input.txt','// this is from appendfilesync','utf8',(err)=>{
+  if(err) throw err;
+  console.log("appended successfullyyyy!");
+})
+*/
+
+/*
+
+This above code represents the unlink the file or folder from the existing 
+file (it deletes the file or folder).
+
+import {unlink,writeFile} from 'node:fs';
+
+writeFile('input.txt','//this is abhinav','utf-8',(err)=>{
+  if(err) throw err;
+  console.log("content overrided successfully!..");
+})
 
 
+unlink('input.txt',(err)=>{
+  if(err) throw err;
+  console.log("unlinked the text file successfully!..");
+})
+*/
 
+/*
 
+This code represents the unlinkSync 
+it unlinks the file synchronously.
 
+import {writeFile,unlinkSync} from 'node:fs';
+writeFile('input.txt','//this text is to unlinksync','utf-8',(err)=>{
+  if(err) throw err;
+  console.log("content overrided successfully!..");
+})
+
+unlinkSync('input.txt');
+*/
 
 
 
