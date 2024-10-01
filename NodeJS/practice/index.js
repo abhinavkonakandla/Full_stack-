@@ -125,8 +125,19 @@ unlink('input.txt',(err)=>{
 })
 */
 
+/*
 
+This code represents the unlinkSync 
+it unlinks the file synchronously.
 
+import {writeFile,unlinkSync} from 'node:fs';
+writeFile('input.txt','//this text is to unlinksync','utf-8',(err)=>{
+  if(err) throw err;
+  console.log("content overrided successfully!..");
+})
+
+unlinkSync('input.txt');
+*/
 
 
 
