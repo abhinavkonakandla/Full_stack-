@@ -18,12 +18,12 @@ console.log(`my name is ${rName}`);*/
 --> fs.unlinkSync()
 --> fs.readdir()
 --> fs.readdirSync()
-fs.mkdir()
-fs.mkdirSync()
-fs.rmdir()
-fs.rmdirSync()
-fs.stat()
-fs.statSync()
+--> fs.mkdir()
+--> fs.mkdirSync()
+--> fs.rmdir()
+--> fs.rmdirSync()
+--> fs.stat()
+--> fs.statSync()
 fs.rename() – Rename or move a file or directory asynchronously.
 fs.renameSync() – Synchronously rename or move a file or directory.
 fs.copyFile() – Copies a file asynchronously.
@@ -179,7 +179,40 @@ mkdirSync('D:/full stack/NodeJS/practice/mkdir/sub',(err)=>{
   if(err) throw err;
 })
 */
+/*
 
+This code represents removing a directory from the give path.
 
+import {rmdir} from 'node:fs';
+rmdir('D:/full stack/NodeJS/practice/mkdir/sub',(err)=>{
+  if(err) throw err;
+  console.log("directory deleted successfully!");
+})
+*/
+/*
 
+This code represents removing a directory synchronously.
 
+import {rmdirSync} from 'node:fs';
+rmdirSync('D:/full stack/NodeJS/practice/mkdir');
+*/
+/*
+
+This code represents status of a file whether it is present or 
+not if it is it prints all details of the file.
+
+import {stat, Stats} from 'node:fs';
+stat('D:/full stack/NodeJS/practice/index.js',(err,Stats)=>{
+  if(err) throw err;
+  console.log(Stats);
+})
+*/
+/*
+
+This code represents the status of a file 
+synchronously.
+
+import {statSync} from 'node:fs';
+const stats = statSync('D:/full stack/NodeJS/practice/index.js');
+console.log(stats);
+*/
