@@ -138,7 +138,18 @@ writeFile('input.txt','//this text is to unlinksync','utf-8',(err)=>{
 
 unlinkSync('input.txt');
 */
+/*
 
+This above code represents the readdir 
+it reads and prints the files in that directory 
+in an array.
+
+import {readdir} from 'node:fs';
+readdir('node_modules','utf-8',(err,files)=>{
+  if(err) throw err;
+  console.log(files);
+})
+*/
 
 
 
