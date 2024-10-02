@@ -16,8 +16,8 @@ console.log(`my name is ${rName}`);*/
 --> fs.appendFileSync()
 --> fs.unlink()
 --> fs.unlinkSync()
-fs.readdir()
-fs.readdirSync()
+--> fs.readdir()
+--> fs.readdirSync()
 fs.mkdir()
 fs.mkdirSync()
 fs.rmdir()
@@ -158,9 +158,27 @@ remaining operation will be paused until its done.
 import {readdirSync} from 'node:fs';
 console.log(readdirSync('D:/full stack/NodeJS/practice/','utf-8'));
 */
+/*
+
+This code represents the creating a new directory 
 
 
+import {mkdir} from 'node:fs';
+mkdir('D:/full stack/NodeJS/practice/mkdir',(err)=>{
+  if(err) throw err;
+})
+*/
 
+/*
+
+This code represents creating directory using synchronous 
+approach 
+
+import {mkdirSync} from 'node:fs';
+mkdirSync('D:/full stack/NodeJS/practice/mkdir/sub',(err)=>{
+  if(err) throw err;
+})
+*/
 
 
 
