@@ -150,6 +150,15 @@ readdir('node_modules','utf-8',(err,files)=>{
   console.log(files);
 })
 */
+/*
+
+This code represents the readdir synchronously
+remaining operation will be paused until its done.
+
+import {readdirSync} from 'node:fs';
+console.log(readdirSync('D:/full stack/NodeJS/practice/','utf-8'));
+*/
+
 
 
 
