@@ -15,6 +15,14 @@ app.get("/contact",(req,res)=>{
     res.send("<h1>Email: abhinavkonakandla@gmail.com</h1> <h1>mobile-no: 9866463310</h1>");
 })
 
+app.post("/submit",(req, res)=>{
+    res.sendStatus(200);
+})
+
+app.patch("/register", (req, res)=>{
+    res.sendStatus(201);
+})
+
 
 app.listen(port, ()=>{
     console.log(`server is running on port ${port}`);
