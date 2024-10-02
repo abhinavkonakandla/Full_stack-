@@ -16,8 +16,8 @@ console.log(`my name is ${rName}`);*/
 --> fs.appendFileSync()
 --> fs.unlink()
 --> fs.unlinkSync()
-fs.readdir()
-fs.readdirSync()
+--> fs.readdir()
+--> fs.readdirSync()
 fs.mkdir()
 fs.mkdirSync()
 fs.rmdir()
@@ -138,9 +138,47 @@ writeFile('input.txt','//this text is to unlinksync','utf-8',(err)=>{
 
 unlinkSync('input.txt');
 */
+/*
+
+This above code represents the readdir 
+it reads and prints the files in that directory 
+in an array.
+
+import {readdir} from 'node:fs';
+readdir('node_modules','utf-8',(err,files)=>{
+  if(err) throw err;
+  console.log(files);
+})
+*/
+/*
+
+This code represents the readdir synchronously
+remaining operation will be paused until its done.
+
+import {readdirSync} from 'node:fs';
+console.log(readdirSync('D:/full stack/NodeJS/practice/','utf-8'));
+*/
+/*
+
+This code represents the creating a new directory 
 
 
+import {mkdir} from 'node:fs';
+mkdir('D:/full stack/NodeJS/practice/mkdir',(err)=>{
+  if(err) throw err;
+})
+*/
 
+/*
+
+This code represents creating directory using synchronous 
+approach 
+
+import {mkdirSync} from 'node:fs';
+mkdirSync('D:/full stack/NodeJS/practice/mkdir/sub',(err)=>{
+  if(err) throw err;
+})
+*/
 
 
 
